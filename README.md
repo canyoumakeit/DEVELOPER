@@ -9,3 +9,11 @@ The src attribute in an img element specifies the image's URL (where the image i
 The alt attribute's text is used for screen readers to improve accessibility and is displayed if the image fails to load. For example, <img src="cat.jpg" alt="A cat"> has an alt attribute with the text A cat.
 can link to another page with the** anchor (a) element**. For example, <a href='https://freecodecamp.org'></a> would link to freecodecamp.org.here href is an attribute
 **Link text:** A **link's text must be placed between the opening and closing tags of an anchor (a) element**
+Step 19
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
+After the last h2 element of the second section element, add an h3 element with this text:dhff
+<ul> <!--List of texts-->
+**  <li>milk</li>
+  <li>cheese</li>
+</ul>**
+The ** figure element** represents self-contained content and will allow you to associate an image with a caption.
