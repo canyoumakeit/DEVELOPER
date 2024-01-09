@@ -33,3 +33,7 @@ Add a button element with the text Submit below the input element. The default b
  label elements are used to help associate the text for an input element with the input elem**ent itself (especially for assistive technologies like screen readers). For example, <label><input type="radio"> cat</label> makes it so clicking the word cat also selects the corresponding radio button.
 The i**d attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
 Add an id attribute with the value indoor to the radio button. When elements have multiple attributes, the order of the attributes doesn't matter.**
+All pages should begin with **<!DOCTYPE html>**. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+You can set browser behavior by adding self-closing **meta elements** in the head. Here's an example:
+<meta attribute="value">
+Tell the browser to parse the markup into multiple languages by creating a meta element as a child of the head element. Set its charset attribute to UTF-8.
