@@ -5,3 +5,26 @@ element {
  property: value;
 }
 Center your h1 element by setting its text-align property to the value center.
+You can use an hr element to display a divider between sections of different content.
+
+First, add an hr element between the p element with the class established and the first section element. Note that hr elements are self closing.
+You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.
+You change properties of a link when the link is actually being clicked by using a pseudo-selector that looks like a:active { propertyName: propertyValue; }.
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: brown;
+}
+
+It would be nice if the vertical space between the h2 elements and their associated icons was smaller.
+The h2 ments have default top and bottom margin space, so you could change the bottom margin of the h2 elements to say 0 or another number.
+
+There is an easier way, simply add a negative top margin to the img elements to pull them up from their current positions.
+Negative values are created using a - in front of the value. 
+To complete this project, go ahead and use a negative top margin of 25px in the img type selector.
