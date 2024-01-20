@@ -37,3 +37,6 @@ gradientDirection is the direction of the line used for the transition. color1 a
 Now you'll apply a red-to-green gradient along a 90 degree line to the first marker.
 
 First, in the .red CSS rule, set the background property to linear-gradient(), and pass it the value 90deg as the gradientDirection.
+red {
+  background: linear-gradient(90deg);
+}
