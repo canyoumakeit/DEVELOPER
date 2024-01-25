@@ -56,3 +56,20 @@ In the last project, you learned a little bit about borders and the border-color
 All HTML elements have borders, though they're usually set to none by default. With CSS, you can control all aspects of an element's border, and set the border on all sides, or just one side at a time. For a border to be visible, you need to set its width and style.
 
 In the .sleeve CSS rule, add the border-left-width property with the value 10px.
+Borders have several styles to choose from. You can make your border a solid line, but you can also use a dashed or dotted line if you prefer. Solid border lines are probably the most common.
+
+In the .sleeve CSS rule, add the border-left-style property with the value solid.
+The border-left shorthand property lets you to set the left border's width, style, and color at the same time.
+Here is the syntax:
+border-left: width style color;
+In the .sleeve CSS rule, replace the border-left-width, border-left-style, and border-left-color properties with the border-left shorthand property. The values for the width, style, and color of the left border should be the same.
+The box-shadow property lets you apply one or more shadows around an element. Here is basic syntax:
+
+box-shadow: offsetX offsetY color;
+Here's how the offsetX and offsetY values work:
+
+both offsetX and offsetY accept number values in px and other CSS units
+a positive offsetX value moves the shadow right and a negative value moves it left
+a positive offsetY value moves the shadow down and a negative value moves it up
+if you want a value of zero (0) for any or both offsetX and offsetY, you don't need to add a unit. Every browser understands that zero means no change.
+The height and width of the shadow is determined by the height and width of the element it's applied to. You can also use an optional spreadRadius value to spread out the reach of the shadow. 
