@@ -4,5 +4,25 @@ Adding 1 pixel of padding to the top, bottom, left, and right of the canvas chan
 
 Replace the padding property with overflow set to hidden - changing the canvas back to its original dimensions.
 
+Flexbox is a one-dimensional CSS layout that can control the way items are spaced out and aligned within a container.
 
+To use it, give an element a display property of flex. This will make the element a flex container. Any direct children of a flex container are called flex items.
+Create a .gallery selector and make it a flex container.
+Flexbox has a main and cross axis. The main axis is defined by the flex-direction property, which has four possible values:
 
+row (default): horizontal axis with flex items from left to right
+row-reverse: horizontal axis with flex items from right to left
+column: vertical axis with flex items from top to bottom
+column-reverse: vertical axis with flex items from bottom to top
+Note: The axes and directions will be different depending on the text direction. The values shown are for a left-to-right text direction.
+
+Try the different values to see how they affect the layout.
+
+When you are done, set an explicit flex-direction of row on the .gallery element.
+The justify-content property determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them.
+
+Give your .gallery selector a justify-content property with center as the value.
+Notice how some of your images have become distorted. This is because the images have different aspect ratios. Rather than setting each aspect ratio individually, you can use the object-fit property to determine how images should behave.
+
+Give your .gallery img selector the object-fit property and set it to cover. This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit.
+The gap CSS shorthand property sets the gaps, also known as gutters, between rows and columns. The gap property and its row-gap and column-gap sub-properties provide this functionality for flex, grid, and multi-column layout. You apply the property to the container element.
